@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-player</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back">
+        <img src="./assets/img/beyonce.png" alt="background" class="background">
+    </div>
+    <div class="audio-player">
+        <audio src="./assets/audio/beyonce.mp3" class="audio" ></audio>
+        <img src="./assets/img/beyonce.png" alt="cover song" class="cover">
+        <div class="controls">
+            <div class="audio-controls">
+                <img src="./assets/svg/play.png" alt="play" class="play">
+                <div class="song">
+                    <div class="song-artist">Beyonce</div>
+                    <div class="song-title">Don't Hurt Yourself</div>
+                </div>
+                <div class="next-prev">
+                    <img src="./assets/svg/backward.png" alt="backward" class="next-icon prev">
+                    <img src="./assets/svg/forward.png" alt="forward" class="next-icon next">
+                </div>
+            </div>
+            <div class="range">
+                <div class="duration">00:00</div>
+                <input type="range" class="progress" min="0" max="100" value="0" step="0.1">
+                <div class="current-time">00:00</div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff8585;
+    align-items: center;
+}
+
+.container{
+    margin-top: 100px;
+    width: 500px;
+    height: 550px;
+}
+
+.score{
+    font-size: 25px;
+}
+
+.canv{
+    display: block;
+    border: 10px solid #000;
+    margin:0 auto;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
